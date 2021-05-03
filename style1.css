@@ -1,0 +1,323 @@
+body{
+    background: crimson;
+}
+.border{
+    background: white;
+    margin-left: -10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 1340px;
+    height: 630px;
+    display: flex;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 0.1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0 gray, 10px 10px 0 0 rgb(0, 0, 0);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 8px;
+    width: 98.2%;
+    margin-top: 9px;
+    height: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0,0,0.5);
+    display: flex;
+}
+nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    float: left;
+    width: 400px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    float: right;
+    margin: 0;
+    margin-left: 400px;
+    padding: 0;
+    list-style: none;
+}
+nav ul li a{
+    line-height: 80px;
+    padding: 12px 30px;
+    color: #fff;
+    /* float: right; */
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 20px;
+    /* color: tomato; */
+    cursor: pointer;
+}
+nav ul li a:hover{
+    background: rgba(0, 0,0,0.7);
+    border-radius: 6px;
+}
+nav ul li a.active{
+    background: #e2472f;
+    color: #fff;
+    border-radius: 6px;
+}
+#box{
+    background: red;
+    cursor: pointer;
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 251, 0);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -1152px;
+    margin-top: -300px;
+    position: fixed;
+}
+#box1{
+    background: yellow;
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(0, 4, 255);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -1152px;
+    margin-top: -150px;
+    position: fixed;
+}
+#box2{
+    background: rgb(80, 133, 1);    
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -1152px;
+    margin-top: 0;
+    position: fixed;
+}
+#box3{
+    background: rgb(0, 238, 255);
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: palevioletred;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -1152px;
+    margin-top: 150px;
+    position: fixed;
+}
+#box4{
+    background: rgb(47, 0, 255);
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(43, 255, 0);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -1152px;
+    margin-top: 300px;
+    position: fixed;
+}
+#box5{
+    background: rgb(255, 0, 221);
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(251, 255, 0);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: -1152px;
+    margin-top: 450px;
+    position: fixed;
+}
+#boxa{
+    background: rgb(255, 0, 221);
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(251, 255, 0);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 1152px;
+    margin-top: -300px;
+    position: fixed;
+}
+#boxb{
+    background: rgb(47, 0, 255);
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(43, 255, 0);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 1152px;
+    margin-top: -150px;
+    cursor: pointer;
+    position: fixed;
+}
+#boxc{
+    background: rgb(0, 238, 255);
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: palevioletred;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 1152px;
+    margin-top: 0px;
+    position: fixed;
+}
+
+#boxd{
+    background: rgb(80, 133, 1);    
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 1152px;
+    margin-top: 150px;
+    position: fixed;
+}
+#boxe{
+    background: yellow;
+    height: 20px;
+    cursor: pointer;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 4, 255);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 1152px;
+    margin-top: 300px;
+    position: fixed;
+}
+#boxf{
+    background: red;
+    cursor: pointer;
+    height: 20px;
+    width: 160px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 251, 0);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    margin-left: 1152px;
+    margin-top: 450px;
+    position: fixed;
+
+}
+.new1{
+    cursor: pointer;
+}
+.new1:hover{
+    background: yellow;
+    color: red;
+    transition: 0.6s ease-in-out;
+}
+a{
+    text-decoration: none;
+}
